@@ -9,5 +9,5 @@
 	"copy_with_empty_selection": false,
 	"close_windows_when_empty": false,
 	"theme": "predawn-DEV.sublime-theme",
-  "color_scheme": "Packages/Predawn/predawn.tmTheme"
+	"color_scheme": "Packages/Predawn/predawn.tmTheme"
 }
