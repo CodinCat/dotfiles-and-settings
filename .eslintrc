@@ -14,12 +14,16 @@
 		}
 	},
 
+	"plugins": [
+		"html"
+	],
+
 	"rules": {
 		"arrow-spacing": [2, { "before": true, "after": true }],
 		"brace-style": [2, "1tbs", { "allowSingleLine": true }],
 		"comma-dangle": [2, "never"],
 		"comma-spacing": [2, { "before": false, "after": true }],
-		"curly": [1, "multi"],
+		"curly": [1, "multi-line"],
 		"eqeqeq": [2, "smart"],
 		"quotes": [2, "single", {"allowTemplateLiterals": true}],
 		"indent": [2, "tab"],
