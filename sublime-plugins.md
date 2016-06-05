@@ -1,0 +1,9 @@
+- Emmet
+- GoSublime
+- JavaScript & NodeJS Snippets
+- Sass
+- SublimeLinter
+  - SublimeLinter-contrib-eslint
+  - SublimeLinter-contrib-golint
+- Vue Syntax Hightlight
+- Git
