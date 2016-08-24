@@ -11,11 +11,12 @@
 - Vue Syntax Hightlight
 - Git
 
-Color Scheme:
+### Color Scheme:
 - Behave Color Scheme
+- Boxy Theme
 - Enki Theme
 - Oceanic Next Color Scheme
-- One Dark
+- One Dark Color Scheme
 - Dracula
 - Zeus
 
