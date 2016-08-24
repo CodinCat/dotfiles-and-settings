@@ -1,4 +1,7 @@
 - Emmet
+- Babel
+- BracketHighlighter
+- CSS3
 - GoSublime
 - JavaScript & NodeJS Snippets
 - Sass
@@ -8,6 +11,13 @@
 - Vue Syntax Hightlight
 - Git
 
+Color Scheme:
+- Behave Color Scheme
+- Enki Theme
+- Oceanic Next Color Scheme
+- One Dark
+- Dracula
+- Zeus
 
 ----------
 
