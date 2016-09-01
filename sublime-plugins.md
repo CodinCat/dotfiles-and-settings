@@ -19,6 +19,7 @@
 - One Dark Color Scheme
 - Dracula
 - Zeus
+- Panda Syntax Sublime
 
 ----------
 
