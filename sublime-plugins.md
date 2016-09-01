@@ -20,6 +20,8 @@
 - Dracula
 - Zeus
 - Panda Syntax Sublime
+- Dark Fusion Color Scheme
+- DarkMosquito Color Scheme
 
 ----------
 
