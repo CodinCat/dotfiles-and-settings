@@ -13,6 +13,7 @@
 
 ### Color Scheme:
 - Behave Color Scheme
+- gruvbox
 - Boxy Theme
 - Enki Theme
 - Oceanic Next Color Scheme
