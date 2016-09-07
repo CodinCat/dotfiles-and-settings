@@ -22,6 +22,7 @@
 - Panda Syntax Sublime
 - Dark Fusion Color Scheme
 - DarkMosquito Color Scheme
+- Neka Theme
 
 ----------
 
