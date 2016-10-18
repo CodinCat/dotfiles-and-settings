@@ -35,6 +35,7 @@
  
 ```json
 {
+	"theme": "gruvbox (Dark) (Hard).sublime-theme",
 	"gruvbox_accent_yellow": true,
 	"gruvbox_animate_icons": true,
 	"gruvbox_buttons_font_size_13": true,
