@@ -24,6 +24,13 @@
 - Dark Fusion Color Scheme
 - DarkMosquito Color Scheme
 - Neka Theme
+- Dayle Rees Color Schemes
+  - earthsong
+  - mud
+  - peel
+- Base 16 Color Schemes
+  - tomorrow-night
+  - default-dark
 
 ----------
 
