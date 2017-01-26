@@ -1,3 +1,13 @@
+# Packages
+
+- react
+- emmet
+- merge-conflicts
+- linter
+- linter-eslint
+- highlight-selected
+- file-icons
+
 # Snippets
 
 ```cson
