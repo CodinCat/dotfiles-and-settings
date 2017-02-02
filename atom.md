@@ -7,6 +7,7 @@
 - linter-eslint
 - highlight-selected
 - file-icons
+- nice-index
 
 # Snippets
 
