@@ -43,5 +43,8 @@ code[class*=language-], pre[class*=language-] {
     font-size: 15px;
     line-height: 1.6;
 }
+h1, h2, h3, h4 {
+  font-family: helvetica neue;
+}
 
 ```
