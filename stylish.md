@@ -27,3 +27,21 @@ body {
     line-height: 1.7;
 }
 ```
+
+# MDN
+
+```css
+body {
+    font-family: system-ui;
+    font-size: 18px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+code[class*=language-], pre[class*=language-] {
+    font-family: hack, fira mono;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+```
