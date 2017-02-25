@@ -12,9 +12,9 @@
 - Git
 
 ### Color Scheme:
-- Behave Color Scheme
-- gruvbox
-- Boxy Theme
+- **Behave Color Scheme**
+- **gruvbox**
+- **Boxy Theme**
 - Enki Theme
 - Oceanic Next Color Scheme
 - One Dark Color Scheme
