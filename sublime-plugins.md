@@ -13,6 +13,7 @@
 
 ### Color Scheme:
 - **Behave Color Scheme**
+- **ayu**
 - **gruvbox**
 - **Boxy Theme**
 - Enki Theme
