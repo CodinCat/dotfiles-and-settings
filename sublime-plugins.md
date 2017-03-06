@@ -16,6 +16,8 @@
 - **ayu**
 - **gruvbox**
 - **Boxy Theme**
+- **Theme - Gravity**
+- **Atomic Color Scheme**
 - Enki Theme
 - Oceanic Next Color Scheme
 - One Dark Color Scheme
