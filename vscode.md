@@ -7,7 +7,7 @@
     "editor.lineHeight": 24,
     "workbench.iconTheme": "vs-seti",
     "workbench.colorTheme": "Monokai Dimmed",
-    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
     "window.reopenFolders": "all",
     "workbench.editor.tabCloseButton": "off"
 }
