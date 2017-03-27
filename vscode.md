@@ -1,15 +1,18 @@
 ```json
 {
-    "editor.fontSize": 14,
+    "editor.cursorBlinking": "smooth",
     "editor.fontFamily": "Fira Mono",
-    "editor.snippetSuggestions": "top",
-    "window.zoomLevel": 0.4,
+    "editor.fontSize": 14,
     "editor.lineHeight": 24,
-    "workbench.iconTheme": "vs-seti",
-    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.snippetSuggestions": "top",
+    "vsicons.dontShowNewVersionMessage": true,
     "window.openFoldersInNewWindow": "on",
     "window.reopenFolders": "all",
-    "workbench.editor.tabCloseButton": "off"
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "window.zoomLevel": 0.4,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.iconTheme": "vscode-icons"
 }
 ```
 
