@@ -3,6 +3,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.fontFamily": "Fira Mono",
     "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
     "editor.lineHeight": 24,
     "editor.snippetSuggestions": "top",
     "vsicons.dontShowNewVersionMessage": true,
