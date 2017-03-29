@@ -32,7 +32,7 @@ body {
 
 ```css
 body {
-    font-family: system-ui;
+    font-family: 'fira sans', system-ui;
     font-size: 18px;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -51,4 +51,19 @@ h1, h2, h3, h4 {
   font-family: helvetica neue;
 }
 
+```
+
+# Dropbox Paper
+
+```css
+.ace-editor h2 {
+    font-size: 23px;
+    line-height: 30px;
+}
+ul {
+    line-height: 2
+}
+div.ace-line {
+    line-height: 28px;
+}
 ```
