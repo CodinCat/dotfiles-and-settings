@@ -67,3 +67,21 @@ div.ace-line {
     line-height: 28px;
 }
 ```
+
+# Hacker News
+
+```css
+.comment {
+    font-family: fira sans;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #494949!important;
+    -webkit-font-smoothing: antialiased;
+}
+.comment a {
+    color: #bf2e2e!important;
+}
+.comhead a {
+    color: #a0742b!important;
+}
+```
