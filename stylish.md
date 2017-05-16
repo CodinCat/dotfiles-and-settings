@@ -63,8 +63,13 @@ h1, h2, h3, h4 {
 ul {
     line-height: 2
 }
-div.ace-line {
-    line-height: 28px;
+div.ace-line:not(.line-list-type-code) {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.line-list-type-code + .ace-line:not(.line-list-type-code) {
+    margin-top: 16px;
 }
 ```
 
