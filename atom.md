@@ -86,6 +86,10 @@ atom-panel-container.left .tab {
   }
 }
 
+atom-panel.modal:after {
+  opacity: 0.6;
+}
+
 .nuclide-file-tree-toolbar {
   margin-top: 0;
   top: -27px;
