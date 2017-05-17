@@ -47,11 +47,13 @@
   }
 }
 
+@pink: #a72f61;
+
 atom-workspace atom-workspace-axis.vertical .tab-bar {
-  border-bottom: 1px solid #a72f61;
+  border-bottom: 1px solid @pink;
 
   .tab {
-    border-right: 1px solid #a72f61;
+    border-right: 1px solid @pink;
     border-left: 0;
     box-shadow: none;
     transition: background-color ease .3s;
@@ -65,6 +67,22 @@ atom-workspace atom-workspace-axis.vertical .tab-bar {
   .tab.active {
     background-color: #bf5c8f;
     color: #fff;
+
+    &:before {
+      background: #fff;
+    }
+  }
+}
+
+atom-panel-container.left .tab {
+  border-right: 1px solid #6d4c5a;
+  border-bottom: 1px solid #6d4c5a;
+
+  &:hover {
+    background-color: #4c474a;
+  }
+  &.active {
+    background-color: #6f5c8f;
   }
 }
 
