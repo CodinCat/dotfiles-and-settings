@@ -73,6 +73,21 @@ div.ace-line:not(.line-list-type-code) {
 }
 ```
 
+# Wikipedia
+
+```css
+.mw-body, .mw-body-content p {
+    font-size: 1.1em;
+}
+.mw-body {
+    background-color: #dad4bc;
+    color: #33270f;
+}
+.mw-body-content a {
+    color: #005da7;
+}
+```
+
 # Hacker News
 
 ```css
