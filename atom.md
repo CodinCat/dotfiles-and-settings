@@ -100,4 +100,14 @@ atom-text-editor .gutter:last-child {
   box-shadow: 1px 0 3px #111;
   margin-right: 6px;
 }
+
+atom-text-editor.is-focused .line.cursor-line,
+atom-text-editor .line.cursor-line {
+  background-color: #474747;
+}
+
+atom-text-editor .highlight,
+atom-text-editor .selection {
+  background-color: #645!important;
+}
 ```
