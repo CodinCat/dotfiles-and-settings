@@ -111,7 +111,7 @@ atom-text-editor .selection {
   background-color: #645!important;
 }
 
-atom-text-editor::shadow .highlight.find-result .region {
+atom-text-editor.editor .highlight.find-result .region {
   background-color: rgba(255, 255, 123, .3);
 }
 ```
