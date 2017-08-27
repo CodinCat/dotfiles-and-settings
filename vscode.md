@@ -8,12 +8,12 @@
     "editor.snippetSuggestions": "top",
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFoldersInNewWindow": "on",
-    "window.reopenFolders": "all",
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0.4,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "emmet.triggerExpansionOnTab": true
 }
 ```
 
