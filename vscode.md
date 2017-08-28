@@ -5,15 +5,23 @@
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.lineHeight": 24,
+    "editor.renderWhitespace": "boundary",
     "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "all",
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0.4,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.iconTheme": "vscode-icons",
-    "emmet.triggerExpansionOnTab": true
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "emmet.triggerExpansionOnTab": true,
+    
+    "atomKeymap.promptV3Features": true,
+    "typescript.check.npmIsInstalled": false,
 }
 ```
 
