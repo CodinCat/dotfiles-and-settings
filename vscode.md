@@ -19,6 +19,108 @@
 
 ```json
 {
+    "workbench.colorCustomizations": {
+        "panel.background": "#444",
+        "tab.inactiveBackground": "#6D4D4D",
+        "tab.inactiveForeground": "#ddd",
+        "tab.activeBackground": "#E76F81",
+        "tab.activeForeground": "#111",
+        "sideBar.background": "#000",
+        "sideBar.border": "#909090"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "variables": "#d1949e",
+        "strings": "#B2C755",
+        "textMateRules": [
+            {
+                "scope": "comments",
+                "settings": {
+                    "foreground": "#969696",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#969696",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "meta.object-literal.key",
+                    "meta.object-literal.key entity.name.function",
+                    "variable",
+                    "meta.definition.variable.name",
+                    "support.variable"
+                ],
+                "settings": {
+                    "foreground": "#D48795"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type",
+                    "keyword.control"
+                ],
+                "settings": {
+                    "foreground": "#D096E4",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "variable.language"
+                ],
+                "settings": {
+                    "foreground": "#F086B1"
+                }
+            },
+            {
+                "scope": [
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#CE7044",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.function.arrow"
+                ],
+                "settings": {
+                    "foreground": "#ddc"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name",
+                    "support.type.property-name",
+                    "string.unquoted.js",
+                    "meta.object-literal.key"
+                ],
+                "settings": {
+                    "foreground": "#D3B187"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.tag",
+                    "entity.name.tag"
+                ],
+                "settings": {
+                    "foreground": "#97C4EC"
+                }
+            }
+        ]
+    }
+}
+```
+
+```json
+{
   "console.log": {
     "prefix": "cl",
     "body": "console.log($1)"
