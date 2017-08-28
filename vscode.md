@@ -51,3 +51,4 @@
 - Go
 - language-stylus
 - Vetur
+- vscode-icons
