@@ -19,9 +19,14 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "emmet.triggerExpansionOnTab": true,
-    
+
+    "eslint.autoFixOnSave": true,
+
     "atomKeymap.promptV3Features": true,
     "typescript.check.npmIsInstalled": false,
+
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5"
 }
 ```
 
@@ -31,14 +36,13 @@
         "panel.background": "#444",
         "tab.inactiveBackground": "#6D4D4D",
         "tab.inactiveForeground": "#ddd",
-        "tab.activeBackground": "#E76F81",
-        "tab.activeForeground": "#111",
+        "tab.activeBackground": "#E86680",
+        "tab.activeForeground": "#fff",
         "sideBar.background": "#000",
         "sideBar.border": "#909090"
     },
 
     "editor.tokenColorCustomizations": {
-        "variables": "#d1949e",
         "strings": "#B2C755",
         "textMateRules": [
             {
@@ -82,15 +86,17 @@
                     "variable.language"
                 ],
                 "settings": {
-                    "foreground": "#F086B1"
+                    "foreground": "#F193B6",
+                    "fontStyle": "italic"
                 }
             },
             {
                 "scope": [
-                    "constant.language"
+                    "constant.language",
+                    "storage.modifier"
                 ],
                 "settings": {
-                    "foreground": "#CE7044",
+                    "foreground": "#EB4E4E",
                     "fontStyle": "italic"
                 }
             },
@@ -115,11 +121,34 @@
             },
             {
                 "scope": [
-                    "punctuation.definition.tag",
-                    "entity.name.tag"
+                    "entity.name.function",
+                    "entity.name.function.method",
+                    "meta.method-call"
                 ],
                 "settings": {
-                    "foreground": "#97C4EC"
+                    "foreground": "#97B7D8"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.tag",
+                    "punctuation.definition.tag",
+                    "punctuation.terminator.statement",
+                    "punctuation.quasi.element",
+                    "meta.brace.curly",
+                    "meta.brace.round",
+                    "meta.brace.square",
+                    "meta.delimiter.comma"
+                ],
+                "settings": {
+                    "foreground": "#D6D2B5"
+                }
+            },
+            {
+                "scope": "entity.name.tag.styledcss",
+                "settings": {
+                    "foreground": "#DCDCAA",
+                    "fontStyle": "italic"
                 }
             }
         ]
