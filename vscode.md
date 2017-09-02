@@ -83,7 +83,8 @@
             },
             {
                 "scope": [
-                    "variable.language"
+                    "variable.language",
+                    "support.class.builtin"
                 ],
                 "settings": {
                     "foreground": "#F193B6",
@@ -98,14 +99,6 @@
                 "settings": {
                     "foreground": "#EB4E4E",
                     "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": [
-                    "storage.type.function.arrow"
-                ],
-                "settings": {
-                    "foreground": "#ddc"
                 }
             },
             {
@@ -131,10 +124,13 @@
             },
             {
                 "scope": [
+                    "storage.type.function.arrow",
                     "entity.name.tag",
                     "punctuation.definition.tag",
                     "punctuation.terminator.statement",
                     "punctuation.quasi.element",
+                    "punctuation.separator",
+                    "punctuation.section",
                     "meta.brace.curly",
                     "meta.brace.round",
                     "meta.brace.square",
