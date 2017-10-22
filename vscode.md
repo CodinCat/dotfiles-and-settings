@@ -50,13 +50,6 @@
     "strings": "#B2C755",
     "textMateRules": [
       {
-        "scope": "comments",
-        "settings": {
-          "foreground": "#969696",
-          "fontStyle": "italic"
-        }
-      },
-      {
         "scope": "comment",
         "settings": {
           "foreground": "#969696",
