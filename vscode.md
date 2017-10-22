@@ -62,7 +62,8 @@
           "meta.object-literal.key entity.name.function",
           "variable",
           "meta.definition.variable.name",
-          "support.variable"
+          "support.variable",
+          "entity.name.tag.yaml"
         ],
         "settings": {
           "foreground": "#D48795"
