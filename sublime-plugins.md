@@ -1,5 +1,5 @@
 - Emmet
-- Babel
+- Naomi
 - BracketHighlighter
 - CSS3
 - GoSublime
@@ -8,6 +8,8 @@
 - SublimeLinter
   - SublimeLinter-contrib-eslint
   - SublimeLinter-contrib-golint
+- ESLint-Formatter
+- JsPrettier
 - Vue Syntax Hightlight
 - Git
 
