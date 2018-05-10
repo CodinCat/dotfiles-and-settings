@@ -14,6 +14,17 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"js_prettier":
+	{
+		"auto_format_on_save": true,
+		"prettier_options":
+		{
+			"printWidth": 80,
+			"semi": false,
+			"singleQuote": true,
+			"trailingComma": "all"
+		}
+	},
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"material_theme_accent_cyan": true,
