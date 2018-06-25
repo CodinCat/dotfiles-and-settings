@@ -43,12 +43,21 @@
     "editorLineNumber.foreground": "#ccc",
     "editor.lineHighlightBackground": "#633",
     "editor.selectionHighlightBackground": "#661",
-    "editor.selectionBackground": "#358"
+    "editor.selectionBackground": "#358",
+    "sideBarSectionHeader.background": "#b33b3b",
+    "sideBarSectionHeader.foreground": "#fff"
   },
 
   "editor.tokenColorCustomizations": {
     "strings": "#B2C755",
     "textMateRules": [
+      {
+        "scope": "comments",
+        "settings": {
+          "foreground": "#969696",
+          "fontStyle": "italic"
+        }
+      },
       {
         "scope": "comment",
         "settings": {
@@ -62,22 +71,26 @@
           "meta.object-literal.key entity.name.function",
           "variable",
           "meta.definition.variable.name",
-          "support.variable",
-          "entity.name.tag.yaml"
+          "support.variable"
         ],
         "settings": {
           "foreground": "#D48795"
         }
       },
       {
-        "scope": ["storage.type", "keyword.control"],
+        "scope": [
+          "storage.type",
+          "keyword.control"
+        ],
         "settings": {
-          "foreground": "#D096E4",
-          "fontStyle": "italic"
+          "foreground": "#D096E4"
         }
       },
       {
-        "scope": ["variable.language", "support.class.builtin"],
+        "scope": [
+          "variable.language",
+          "support.class.builtin"
+        ],
         "settings": {
           "foreground": "#F193B6"
         }
@@ -89,7 +102,10 @@
         }
       },
       {
-        "scope": ["constant.language", "storage.modifier"],
+        "scope": [
+          "constant.language",
+          "storage.modifier"
+        ],
         "settings": {
           "foreground": "#EB4E4E",
           "fontStyle": "italic"
@@ -100,7 +116,8 @@
           "entity.other.attribute-name",
           "support.type.property-name",
           "string.unquoted.js",
-          "meta.object-literal.key"
+          "meta.object-literal.key",
+          "storage.type.class.jsdoc"
         ],
         "settings": {
           "foreground": "#D3B187"
@@ -128,7 +145,8 @@
           "meta.brace.curly",
           "meta.brace.round",
           "meta.brace.square",
-          "meta.delimiter.comma"
+          "meta.delimiter.comma",
+          "punctuation.section.embedded"
         ],
         "settings": {
           "foreground": "#D6D2B5"
@@ -142,7 +160,7 @@
         }
       }
     ]
-  }
+  },
 }
 ```
 
