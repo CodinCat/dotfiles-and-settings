@@ -1,3 +1,5 @@
+# General
+
 ```json
 {
     "editor.cursorBlinking": "smooth",
@@ -29,6 +31,8 @@
     "prettier.trailingComma": "es5"
 }
 ```
+
+# Custom Theme
 
 ```json
 {
@@ -186,6 +190,7 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
 }
 ```
 
+# Snippets
 
 ```json
 {
@@ -215,6 +220,8 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
   }
 }
 ```
+
+# Extensions
 
 - Babel JavaScript
 - ESLint
