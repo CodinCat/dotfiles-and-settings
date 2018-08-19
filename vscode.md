@@ -180,12 +180,62 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
         "sideBarSectionHeader.foreground": "#fff",
         "editorLineNumber.foreground": "#aaa",
         "editor.lineHighlightBackground": "#ffffff46",
-        "editor.background": "#dadad0",
+        "editor.background": "#e2e2d4",
+        "editor.foreground": "#585849",
         "tab.activeBackground": "#eecbb2"
     },
     "editor.tokenColorCustomizations": {
-        "strings": "#679c67",
+        "strings": "#40a246",
         "comments": "#a9a9aa",
+        "variables": "#907000",
+        "keywords": "#c034d4",
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.other.attribute-name",
+                    "support.function"
+                ],
+                "settings": {
+                    "foreground": "#3778B7"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.class",
+                    "storage.class"
+                ],
+                "settings": {
+                    "foreground": "#cf5757",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#cf5d5d",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["source"],
+                "settings": {
+                    "foreground": "#585849"
+                }
+            },
+            {
+                "scope": ["entity.name.class"],
+                "settings": {
+                    "foreground": "#5a5449",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#449922",
+                }
+            }
+        ]
     },
 }
 ```
