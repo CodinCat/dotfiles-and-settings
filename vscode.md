@@ -164,6 +164,29 @@
 }
 ```
 
+# Kary Pro Colors - Eye Light
+
+https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes
+
+```json
+{
+    "workbench.colorCustomizations": {
+        "sideBar.border": "#c08787",
+        "sideBarSectionHeader.background": "#c6797edf",
+        "sideBarSectionHeader.foreground": "#fff",
+        "editorLineNumber.foreground": "#aaa",
+        "editor.lineHighlightBackground": "#ffffff46",
+        "editor.background": "#dadad0",
+        "tab.activeBackground": "#eecbb2"
+    },
+    "editor.tokenColorCustomizations": {
+        "strings": "#679c67",
+        "comments": "#a9a9aa",
+    },
+}
+```
+
+
 ```json
 {
   "console.log": {
