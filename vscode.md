@@ -180,6 +180,7 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
         "sideBarSectionHeader.foreground": "#fff",
         "editorLineNumber.foreground": "#aaa",
         "editor.lineHighlightBackground": "#ffffff46",
+        "editor.selectionBackground": "#d6baadbd",
         "editor.background": "#e2e2d4",
         "editor.foreground": "#585849",
         "tab.activeBackground": "#eecbb2"
