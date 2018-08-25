@@ -207,7 +207,8 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
               "storage.type.function",
               "keyword.control.export",
               "storage.type.class",
-              "storage.modifier.async"
+              "storage.modifier.async",
+              "storage.modifier.visibility"
             ],
             "settings": {
               "foreground": "#B052A1",
