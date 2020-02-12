@@ -2,7 +2,6 @@
 
 ```json
 {
-    "editor.cursorBlinking": "smooth",
     "editor.fontFamily": "Fira Mono",
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
@@ -16,7 +15,6 @@
     "window.restoreWindows": "all",
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0.4,
-    "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -28,7 +26,22 @@
     "typescript.check.npmIsInstalled": false,
 
     "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5"
+    "prettier.trailingComma": "es5",
+    
+    "[javascript]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
 ```
 
