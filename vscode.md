@@ -364,9 +364,12 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
 
 # Extensions
 
+- Atom Keymap
 - Babel JavaScript
 - ESLint
 - Color Highlight
+- Prettier - Code formatter
+- vscode-styled-components
 - Go
 - language-stylus
 - Vetur
