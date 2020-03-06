@@ -331,6 +331,25 @@ https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfou
 }
 ```
 
+# Gruvbox Concoctis
+
+https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis
+
+```json
+"editor.tokenColorCustomizations": {
+    "[gruvboxConcoctis dark hard]": {
+        "textMateRules": [
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    }
+},
+```
+
 # Snippets
 
 ```json
