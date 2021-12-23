@@ -1,3 +1,97 @@
+# 2021-12 MBP Settings
+
+```json
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 23,
+  "editor.fontFamily": "Cascadia Code, JuliaMono, Jetbrains Mono, Operator Mono, Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "window.openFoldersInNewWindow": "on",
+  "window.title": "${rootName}${separator}${activeEditorMedium}",
+  "workbench.colorTheme": "gruvboxConcoctis dark hard",
+  "window.zoomLevel": 0,
+  "prettier.singleQuote": true,
+  "workbench.colorCustomizations": {
+    "panel.background": "#444",
+    "tab.inactiveBackground": "#804646",
+    "tab.inactiveForeground": "#ddd",
+    "tab.activeBackground": "#DB4A7D",
+    "tab.activeForeground": "#fff",
+    "sideBar.background": "#000",
+    "sideBar.border": "#e08181",
+    "editorLineNumber.foreground": "#ccc",
+    "editor.lineHighlightBackground": "#502222",
+    "editor.selectionHighlightBackground": "#661",
+    "editor.selectionBackground": "#358",
+    "sideBarSectionHeader.background": "#b33b3b",
+    "sideBarSectionHeader.foreground": "#fff"
+  },
+  "editor.tokenColorCustomizations": {
+    "[gruvboxConcoctis dark hard]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "variable.other.property",
+            "meta.import keyword.control",
+            "variable.other.object.property",
+            "entity.other.attribute-name.jsx"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            "meta.object-literal.key",
+            "meta.type.annotation entity.name.type",
+            "constant.other.object.key",
+            "variable.other.property"
+          ],
+          "settings": {
+            "foreground": "#82aac5"
+          }
+        },
+        {
+          "scope": ["meta.object-literal.key"],
+          "settings": {
+            "foreground": "#d1a778"
+          }
+        }
+      ]
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "atomKeymap.promptV3Features": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+```
+
 # General
 
 ```json
