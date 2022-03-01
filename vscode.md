@@ -5,7 +5,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.fontSize": 16,
   "editor.lineHeight": 23,
-  "editor.fontFamily": "Cascadia Code, JuliaMono, Jetbrains Mono, Operator Mono, Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Cascadia Code, JuliaMono, Input Mono, Jetbrains Mono, Operator Mono, Fira Mono, monospace",
   "editor.fontLigatures": true,
   "vsicons.dontShowNewVersionMessage": true,
   "editor.minimap.enabled": false,
