@@ -62,6 +62,74 @@
           }
         }
       ]
+    },
+    "[Kary Pro Colors － Dark]": {
+      "textMateRules": [
+        {
+          "scope": ["constant.numeric"],
+          "settings": {
+            "foreground": "#e3a0c0"
+          }
+        },
+        {
+          "scope": ["variable.other.object"],
+          "settings": {
+            "foreground": "#c4b58c"
+          }
+        },
+        {
+          "scope": ["variable.other.property"],
+          "settings": {
+            "foreground": "#89b4af"
+          }
+        },
+        {
+          "scope": ["variable.other.constant"],
+          "settings": {
+            "foreground": "#a0a95f"
+          }
+        },
+        {
+          "scope": [
+            "storage.type.class.jsdoc",
+            "entity.name.type.instance.jsdoc",
+            "punctuation.definition.block.tag.jsdoc",
+            "punctuation.quasi.element"
+          ],
+          "settings": {
+            "foreground": "#9d9d9d"
+          }
+        },
+        {
+          "scope": ["variable.other.jsdoc", "entity.name.class.jsdoc"],
+          "settings": {
+            "foreground": "#d0d0d0"
+          }
+        },
+        {
+          "scope": [
+            "constant.other.object.key",
+            "string.unquoted",
+            "support.class.component"
+          ],
+          "settings": {
+            "foreground": "#7f9a94"
+          }
+        },
+        {
+          "scope": ["keyword.operator"],
+          "settings": {
+            "foreground": "#aca89b"
+          }
+        },
+        {
+          "scope": ["storage.type.function"],
+          "settings": {
+            "foreground": "#db7070",
+            "fontStyle": "bold"
+          }
+        }
+      ]
     }
   },
   "[javascript]": {
@@ -87,6 +155,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
