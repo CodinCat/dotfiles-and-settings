@@ -1,35 +1,41 @@
-# 2021-12 MBP Settings
+# 2024-12 MBP Settings
 
 ```json
 {
   "workbench.iconTheme": "vscode-icons",
   "editor.fontSize": 16,
   "editor.lineHeight": 23,
-  "editor.fontFamily": "IntelOne Mono, Geist Mono, Monaspace Neon Var, League Mono, Martian Mono, Iosevka Medium Extended, DM Mono, MonoLisa, Cascadia Code, JuliaMono, Input Mono, Jetbrains Mono, Operator Mono, Fira Mono, monospace",
+  "editor.fontFamily": "IntelOne Mono, Reddit Mono, Server Mono, Sometype Mono, Spline Sans Mono, Geist Mono, M Plus Code Latin, Fragment Mono, Monaspace Neon Var, League Mono, Martian Mono, Iosevka Medium Extended, DM Mono, MonoLisa, Cascadia Code, JuliaMono, Input Mono, Jetbrains Mono, Operator Mono, Fira Mono, monospace",
   "editor.fontLigatures": true,
-  "vsicons.dontShowNewVersionMessage": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.stickyScroll.enabled": true,
+  "editor.multiCursorLimit": 20000,
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hant": true
+  },
+  "prettier.singleQuote": true,
   "window.openFoldersInNewWindow": "on",
-  "window.title": "${rootName}${separator}${activeEditorMedium}",
   "workbench.colorTheme": "gruvboxConcoctis dark hard",
   "window.zoomLevel": 0,
-  "prettier.singleQuote": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    [
+      "cva\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)",
+      "'([^']*)'"
+    ]
+  ],
   "workbench.colorCustomizations": {
-    "panel.background": "#444",
-    "tab.inactiveBackground": "#804646",
+    "tab.inactiveBackground": "#000",
     "tab.inactiveForeground": "#ddd",
-    "tab.activeBackground": "#DB4A7D",
+    "tab.activeBackground": "#b03862",
     "tab.activeForeground": "#fff",
     "sideBar.background": "#000",
-    "sideBar.border": "#e08181",
-    "editorLineNumber.foreground": "#ccc",
-    "editor.lineHighlightBackground": "#502222",
-    "editor.selectionHighlightBackground": "#661",
-    "editor.selectionBackground": "#358",
-    "sideBarSectionHeader.background": "#b33b3b",
-    "sideBarSectionHeader.foreground": "#fff"
+    "sideBar.border": "#644141"
   },
   "editor.tokenColorCustomizations": {
     "[gruvboxConcoctis dark hard]": {
@@ -69,13 +75,35 @@
         {
           "scope": ["constant.numeric"],
           "settings": {
-            "foreground": "#e3a0c0"
+            "foreground": "#e19bb0"
           }
         },
         {
-          "scope": ["variable.other.object"],
+          "scope": ["constant.language"],
+          "settings": {
+            "foreground": "#d95b98"
+          }
+        },
+        {
+          "scope": ["entity.name.function"],
+          "settings": {
+            "foreground": "#dc935b"
+          }
+        },
+        {
+          "scope": ["variable.other.object", "variable.other.object.property"],
           "settings": {
             "foreground": "#c4b58c"
+          }
+        },
+        {
+          "scope": [
+            "meta.jsx.children",
+            "variable.parameter",
+            "text.html.derivative"
+          ],
+          "settings": {
+            "foreground": "#c9c4c0"
           }
         },
         {
@@ -85,9 +113,14 @@
           }
         },
         {
-          "scope": ["variable.other.constant"],
+          "scope": [
+            "variable.other.constant",
+            "markup.inline.raw.string.markdown"
+          ],
           "settings": {
-            "foreground": "#a0a95f"
+            "foreground": "#a0ab70"
+            // "foreground": "#a6ae6d"
+            // "foreground": "#4b9f8e"
           }
         },
         {
@@ -118,28 +151,64 @@
           }
         },
         {
+          "scope": ["meta.object-literal.key"],
+          "settings": {
+            "foreground": "#708c8d"
+          }
+        },
+        {
           "scope": ["keyword.operator"],
           "settings": {
             "foreground": "#aca89b"
           }
         },
         {
+          "scope": ["keyword.control.flow"],
+          "settings": {
+            "foreground": "#d683d1"
+          }
+        },
+        {
+          "scope": [
+            "entity.other.attribute-name",
+            "entity.other.attribute-name.class",
+            "meta.selector.css"
+          ],
+          "settings": {
+            "foreground": "#ce6f90"
+          }
+        },
+        {
+          "scope": ["meta.at-rule.apply.tailwind"],
+          "settings": {
+            "foreground": "#bc9550"
+          }
+        },
+        {
+          "scope": [
+            "storage.type.function",
+            "keyword.control.export",
+            "storage.type.function.arrow",
+            "storage.modifier.async"
+          ],
+          "settings": {
+            "foreground": "#e67070"
+          }
+        },
+        {
           "scope": ["storage.type.function"],
           "settings": {
-            "foreground": "#db7070",
             "fontStyle": "bold"
           }
         }
       ]
     }
   },
+  "vsicons.dontShowNewVersionMessage": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
-  "atomKeymap.promptV3Features": true,
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -151,7 +220,6 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.confirmSync": false,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -166,6 +234,22 @@
   }
 }
 ```
+
+# Extensions
+
+- Tailwind CSS IntelliSense
+- Multiple cursor case preserve
+- Peacock
+- PostCSS Language Support
+- Pretty TypeScript Errors
+- ESLint
+- Color Highlight
+- Prettier - Code formatter
+- vscode-styled-components
+- Go
+- vscode-icons
+
+------
 
 # General
 
@@ -549,16 +633,3 @@ https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-
   }
 }
 ```
-
-# Extensions
-
-- Atom Keymap
-- Babel JavaScript
-- ESLint
-- Color Highlight
-- Prettier - Code formatter
-- vscode-styled-components
-- Go
-- language-stylus
-- Vetur
-- vscode-icons
