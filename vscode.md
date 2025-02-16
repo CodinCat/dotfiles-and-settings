@@ -5,7 +5,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.fontSize": 16,
   "editor.lineHeight": 23,
-  "editor.fontFamily": "IntelOne Mono, Reddit Mono, Server Mono, Sometype Mono, Spline Sans Mono, Geist Mono, M Plus Code Latin, Fragment Mono, Monaspace Neon Var, League Mono, Martian Mono, Iosevka Medium Extended, DM Mono, MonoLisa, Cascadia Code, JuliaMono, Input Mono, Jetbrains Mono, Operator Mono, Fira Mono, monospace",
+  "editor.fontFamily": "League Mono Narrow, IntelOne Mono, Reddit Mono, Server Mono, Sometype Mono, Spline Sans Mono, Geist Mono, M Plus Code Latin, Fragment Mono, Monaspace Neon Var, Martian Mono, Iosevka Medium Extended, DM Mono, MonoLisa, Cascadia Code, JuliaMono, Input Mono, Jetbrains Mono, Operator Mono, Fira Mono, monospace",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
@@ -31,11 +31,11 @@
   ],
   "workbench.colorCustomizations": {
     "tab.inactiveBackground": "#000",
-    "tab.inactiveForeground": "#ddd",
-    "tab.activeBackground": "#b03862",
+    "tab.inactiveForeground": "#888",
+    "tab.activeBackground": "#a03052",
     "tab.activeForeground": "#fff",
     "sideBar.background": "#000",
-    "sideBar.border": "#644141"
+    "sideBar.border": "#545151"
   },
   "editor.tokenColorCustomizations": {
     "[gruvboxConcoctis dark hard]": {
@@ -75,35 +75,13 @@
         {
           "scope": ["constant.numeric"],
           "settings": {
-            "foreground": "#e19bb0"
+            "foreground": "#e3a0c0"
           }
         },
         {
-          "scope": ["constant.language"],
-          "settings": {
-            "foreground": "#d95b98"
-          }
-        },
-        {
-          "scope": ["entity.name.function"],
-          "settings": {
-            "foreground": "#dc935b"
-          }
-        },
-        {
-          "scope": ["variable.other.object", "variable.other.object.property"],
+          "scope": ["variable.other.object"],
           "settings": {
             "foreground": "#c4b58c"
-          }
-        },
-        {
-          "scope": [
-            "meta.jsx.children",
-            "variable.parameter",
-            "text.html.derivative"
-          ],
-          "settings": {
-            "foreground": "#c9c4c0"
           }
         },
         {
@@ -113,14 +91,16 @@
           }
         },
         {
-          "scope": [
-            "variable.other.constant",
-            "markup.inline.raw.string.markdown"
-          ],
+          "scope": ["variable.other.constant"],
           "settings": {
-            "foreground": "#a0ab70"
-            // "foreground": "#a6ae6d"
-            // "foreground": "#4b9f8e"
+            "foreground": "#a0a95f"
+          }
+        },
+        {
+          "scope": ["entity.name.function", "meta.definition.function"],
+          "settings": {
+            "foreground": "",
+            "fontStyle": ""
           }
         },
         {
@@ -151,60 +131,51 @@
           }
         },
         {
-          "scope": ["meta.object-literal.key"],
-          "settings": {
-            "foreground": "#708c8d"
-          }
-        },
-        {
           "scope": ["keyword.operator"],
           "settings": {
             "foreground": "#aca89b"
           }
         },
         {
-          "scope": ["keyword.control.flow"],
-          "settings": {
-            "foreground": "#d683d1"
-          }
-        },
-        {
-          "scope": [
-            "entity.other.attribute-name",
-            "entity.other.attribute-name.class",
-            "meta.selector.css"
-          ],
-          "settings": {
-            "foreground": "#ce6f90"
-          }
-        },
-        {
-          "scope": ["meta.at-rule.apply.tailwind"],
-          "settings": {
-            "foreground": "#bc9550"
-          }
-        },
-        {
           "scope": [
             "storage.type.function",
             "keyword.control.export",
-            "storage.type.function.arrow",
+            "meta.var.expr keyword.control.export",
             "storage.modifier.async"
           ],
           "settings": {
-            "foreground": "#e67070"
+            "foreground": "#cf6a6a",
+            "fontStyle": "bold"
           }
         },
         {
-          "scope": ["storage.type.function"],
+          "scope": ["storage.modifier.async"],
           "settings": {
-            "fontStyle": "bold"
+            "foreground": "#B98EB2",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["keyword.control.flow", "storage.modifier"],
+          "settings": {
+            "foreground": "#e378ef"
+          }
+        },
+        {
+          "scope": ["meta.object-literal.key"],
+          "settings": {
+            "foreground": "#a09130"
+          }
+        },
+        {
+          "scope": ["meta.jsx.children"],
+          "settings": {
+            "foreground": "#b7b7b7"
           }
         }
       ]
     }
   },
-  "vsicons.dontShowNewVersionMessage": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
@@ -231,7 +202,8 @@
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "cursor.cpp.enablePartialAccepts": true
 }
 ```
 
@@ -302,15 +274,88 @@
 
 ```json
 [
-    { "key": "cmd+1","command": "workbench.action.openEditorAtIndex1" },
-    { "key": "cmd+2","command": "workbench.action.openEditorAtIndex2" },
-    { "key": "cmd+3","command": "workbench.action.openEditorAtIndex3" },
-    { "key": "cmd+4","command": "workbench.action.openEditorAtIndex4" },
-    { "key": "cmd+5","command": "workbench.action.openEditorAtIndex5" },
-    { "key": "cmd+6","command": "workbench.action.openEditorAtIndex6" },
-    { "key": "cmd+7","command": "workbench.action.openEditorAtIndex7" },
-    { "key": "cmd+8","command": "workbench.action.openEditorAtIndex8" },
-    { "key": "cmd+9","command": "workbench.action.openEditorAtIndex9" }
+    { "key": "cmd+1", "command": "workbench.action.openEditorAtIndex1" },
+  { "key": "cmd+2", "command": "workbench.action.openEditorAtIndex2" },
+  { "key": "cmd+3", "command": "workbench.action.openEditorAtIndex3" },
+  { "key": "cmd+4", "command": "workbench.action.openEditorAtIndex4" },
+  { "key": "cmd+5", "command": "workbench.action.openEditorAtIndex5" },
+  { "key": "cmd+6", "command": "workbench.action.openEditorAtIndex6" },
+  { "key": "cmd+7", "command": "workbench.action.openEditorAtIndex7" },
+  { "key": "cmd+8", "command": "workbench.action.openEditorAtIndex8" },
+  { "key": "cmd+9", "command": "workbench.action.openEditorAtIndex9" },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-workbench.action.chat.startVoiceChat",
+    "when": "chatIsEnabled && hasSpeechProvider && inChatInput && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress || chatIsEnabled && hasSpeechProvider && inlineChatFocused && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-workbench.action.chat.stopListeningAndSubmit",
+    "when": "inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'view' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'view'"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat2.reveal",
+    "when": "inlineChatHasEditsAgent && inlineChatHasSession"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-workbench.action.terminal.chat.start",
+    "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat2.stop",
+    "when": "inlineChatHasEditsAgent && inlineChatVisible && inlineChatHasSession == 'empty'"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.startWithCurrentLine",
+    "when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat2.start",
+    "when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput && !inlineChatHasSession"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.start",
+    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
+  },
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.quickOpenPreviousEditor"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-aichat.newchataction"
+  },
+  {
+    "key": "cmd+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  }
 ]
 ```
 
