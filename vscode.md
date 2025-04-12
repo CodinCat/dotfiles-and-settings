@@ -149,6 +149,12 @@
           }
         },
         {
+          "scope": ["constant.language.boolean"],
+          "settings": {
+            "foreground": "#e75d69"
+          }
+        },
+        {
           "scope": ["storage.modifier.async"],
           "settings": {
             "foreground": "#B98EB2",
