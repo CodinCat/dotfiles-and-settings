@@ -281,8 +281,9 @@
 # Keyboard Shortcuts
 
 ```json
+// Place your key bindings in this file to override the defaults
 [
-    { "key": "cmd+1", "command": "workbench.action.openEditorAtIndex1" },
+  { "key": "cmd+1", "command": "workbench.action.openEditorAtIndex1" },
   { "key": "cmd+2", "command": "workbench.action.openEditorAtIndex2" },
   { "key": "cmd+3", "command": "workbench.action.openEditorAtIndex3" },
   { "key": "cmd+4", "command": "workbench.action.openEditorAtIndex4" },
@@ -363,6 +364,29 @@
     "key": "cmd+p",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.gotoSymbol",
+    "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol",
+    "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-composer.startComposerPrompt",
+    "when": "composerIsEnabled"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-composer.startComposerPrompt"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-composerMode.agent"
   }
 ]
 ```
