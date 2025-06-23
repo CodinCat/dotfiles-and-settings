@@ -34,8 +34,10 @@
     "tab.inactiveForeground": "#888",
     "tab.activeBackground": "#a03052",
     "tab.activeForeground": "#fff",
+    "tab.unfocusedActiveBackground": "#502032",
     "sideBar.background": "#000",
-    "sideBar.border": "#545151"
+    "sideBar.border": "#545151",
+    "editorGroup.border": "#888"
   },
   "editor.tokenColorCustomizations": {
     "[gruvboxConcoctis dark hard]": {
